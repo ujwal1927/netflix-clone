@@ -1,0 +1,178 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Set a background color for the whole page */
+  body {
+    
+    background-color: #141414;
+    font-family: Arial, sans-serif;
+    color: white;
+    background-size: 100% 97%; /* Change the size here */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+    background-image: url(https://wallpapers.com/images/hd/netflix-background-gs7hjuwvv2g0e9fj.jpg)
+    
+   
+  
+  
+  }
+  
+  /* Navbar styles */
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #000000;
+  }
+  
+  .logo {
+    width: 150px;
+    ;
+  }
+  
+  .avatar {
+    max-width: 40px;
+    width: 10%;
+    border-radius: 50%;
+  }
+  
+  /* Banner styles */
+  .banner {
+    background-image: url('1.png'); /* Add your banner image */
+    background-size: cover;
+    background-position: center;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 50px;
+  }
+  
+  .banner-content {
+    max-width: 45%;
+  }
+  
+  .banner h1 {
+    font-size: 3rem;
+    font-weight: 800;
+    margin-bottom: 20px;
+  }
+  
+  .banner p {
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+    opacity: 0.8;
+  }
+  
+  /* Banner buttons */
+  .banner-buttons {
+    display: flex;
+  }
+  
+  .banner-button {
+    cursor: pointer;
+    font-weight: 700;
+    border: none;
+    border-radius: 5px;
+    padding: 15px 30px;
+    margin-right: 20px;
+    background-color: #e50914;
+    color: white;
+    font-size: 1.1rem;
+    transition: background-color 0.3s;
+  }
+  
+  .banner-button:hover {
+    background-color: #ff0a16;
+  }
+  
+  /* Movie row styles */
+  .movie-row {
+    padding: 20px;
+  }
+  
+  h2 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+  }
+  #search-container {
+
+    position: absolute;
+    top: 43px;
+    right: 78px;
+   
+}
+
+#search-input {
+    padding: 10px;
+    width: 300px;
+    border: 3px solid #100e0e;
+    border-radius: 10px;
+    font-size: 16px;
+}
+
+#search-results {
+    margin-top: 20px;
+    text-align: center;
+}
+  /* Movie posters */
+  .movie-posters {
+    display: flex;
+    
+  }
+  
+  .movie-poster {
+    max-width: 400px;
+    width: 100%;
+    margin-right: 150px;
+    height: fit-content;
+    cursor: pointer;
+    transition: transform 0.2s;
+  }
+  
+  .movie-poster:last-child {
+    margin-right: 0;
+  }
+  
+  .movie-poster:hover {
+    transform: scale(1.08);
+  }
+  .input-group {
+    width: 100%;
+  }
+  
+  .form-control {
+    border-radius: 0;
+  }
+  
+  .btn-outline-secondary {
+    border-radius: 0;
+  }
+  #movie-posters {
+    display: flex;
+    overflow: auto;
+}
+
+.movie-poster {
+    width: 41.5vh;
+    margin-right: 10px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+    transition: transform 0.2s;
+    cursor: pointer;
+}
+
+.movie-poster:hover {
+    transform: scale(1.05);
+}
+
+.movie-poster img {
+    width: 41.5vh;
+    height: 25vh;
+}
